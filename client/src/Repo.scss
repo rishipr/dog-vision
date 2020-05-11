@@ -1,0 +1,44 @@
+.repo-btn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 30px 16px;
+  color: white;
+  border: 1px solid rgba(white, 0.2);
+  border-radius: 4px;
+  margin-top: 24px;
+  background: transparent;
+  border: none;
+  outline: 0;
+  font-weight: 600;
+  transition: all 0.25s ease 0s;
+  transform: translateY(0px);
+  opacity: 1;
+  box-sizing: border-box;
+  user-select: none;
+
+  svg {
+    margin-right: 18px;
+  }
+
+  &:hover {
+    transform: translateY(-2.5px);
+    transition: all 0.25s ease 0s;
+  }
+}
+
+.repo-btn-github:hover {
+  background: linear-gradient(90deg, rgb(85, 32, 255) 0%, rgb(195, 3, 255) 65%);
+}
+
+.repo-btn-medium:hover {
+  background: linear-gradient(
+    50.4deg,
+    rgb(0, 84, 253) 0%,
+    rgb(255, 25, 247) 32.29%,
+    rgb(255, 46, 93) 57.29%,
+    rgb(255, 170, 7) 84.38%,
+    rgb(230, 185, 116) 100%
+  );
+}
